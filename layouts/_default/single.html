@@ -1,0 +1,9 @@
+{{ define "title" }}
+    {{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+    <p>Título de la Publicación</p>
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Content }}</p>
+{{ end }}
